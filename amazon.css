@@ -332,3 +332,173 @@ p a {
 .copy2 {
     padding-bottom: 10px;
 }
+
+
+
+/* media */
+@media only screen and (max-width: 768px) {
+    .banner {
+        /* background-color: antiquewhite; */
+        width: 100%;
+        margin-top: 6rem;
+        padding: 5px;
+
+    }
+
+    .virat-photo {
+        width: 400px;
+        height: 100%;
+    }
+
+    .banner-head {
+        width: 100%;
+    }
+
+    .banner-body {
+        flex-direction: column;
+    }
+
+    .watch-cont p {
+        width: 90%;
+    }
+
+    .result {
+        width: 90%;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .product {
+        width: 100%;
+        padding-left: 2rem;
+    }
+
+    .banner-head img {
+        width: 200px;
+    }
+
+    .footer-list {
+        flex-direction: column;
+        /* align-items: center; */
+        padding-left: 1rem;
+    }
+
+    .product {
+        /* overflow: scroll; */
+        flex-direction: column;
+        /* background-color: #00A8E1; */
+        margin-top: 1rem;
+
+    }
+
+    .product-limit {
+        width: 70%;
+    }
+
+    .product-image {
+        width: 100%;
+    }
+
+    .product-image img {
+        width: 100%;
+    }
+
+    .product-details {
+        width: 100%;
+    }
+
+    .product-details {
+        padding-left: 0rem;
+        /* background-color: antiquewhite; */
+    }
+
+    .banner-logo {
+        width: 100%;
+    }
+
+    .banner-logo {
+        width: 50%;
+    }
+
+    .banner-logo img {
+        width: 100%;
+    }
+
+    .header-contant {
+        width: 50%;
+    }
+
+    .p1 {
+        font-size: 10px;
+    }
+
+    .virat-photo {
+        width: 100%;
+    }
+
+    .search,
+    .links {
+        display: none;
+    }
+
+    .logo {
+        /* background-color: yellow; */
+        margin-left: 0px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    nav {
+
+        height: 65px;
+    }
+
+    .link {
+        margin-top: 1rem;
+    }
+
+    .product-name {
+        font-size: 12px;
+    }
+
+    .list p a {
+        color: white;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .copy1 {
+        padding: 10px 0px;
+        font-size: 12px;
+    }
+
+    .copy2 {
+
+        font-size: 12px;
+    }
+
+    .copy2 {
+        padding-bottom: 10px;
+    }
+
+    .footer-top {
+        font-size: 15px;
+    }
+
+    .limited {
+        background-color: rgb(128, 42, 42);
+        color: white;
+        font-size: 10px;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        padding: 7px 8px;
+        cursor: pointer;
+    }
+    .margin-0{
+        font-size: 10px;
+    }
+}
